@@ -183,7 +183,7 @@ resources. It is rebuilt and published to GitHub Pages
 (`.github/workflows/pages.yml`) every time something is merged into `main`, so a new map shows
 up a few minutes after its pull request is merged. You never need to edit the site to add a map.
 
-To run it locally (Node 20+):
+To run it locally (Node 22 or newer; GitHub builds with Node 24):
 
 ```bash
 cd site

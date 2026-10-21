@@ -1,7 +1,7 @@
 <script>
-	import { base } from '$app/paths';
-	import maps from '$lib/maps.json';
-	import { links, kickoff, themes, resources } from '$lib/content.js';
+	import { asset } from '$app/paths';
+	import maps from '#lib/maps.json';
+	import { links, kickoff, themes, resources } from '#lib/content.js';
 
 	let selectedDay = $state(null);
 	let openMap = $state(null);
@@ -166,7 +166,7 @@
 				{#each shown as m (m.folder)}
 					<li>
 						<button class="card" onclick={() => show(m)}>
-							<img src={base + m.image} alt={m.title || `Map for day ${m.day}`} loading="lazy" />
+							<img src={asset(m.image)} alt={m.title || `Map for day ${m.day}`} loading="lazy" />
 							<span class="meta">
 								<span class="day">Day {m.day} · {themeName(m.day)}</span>
 								<span class="who">{m.name || '@' + m.handle}</span>
@@ -220,7 +220,7 @@
 	{#if openMap}
 		<div class="detail">
 			<button class="close" onclick={() => dialog.close()} aria-label="Close">✕</button>
-			<img src={base + openMap.image} alt={openMap.title} />
+			<img src={asset(openMap.image)} alt={openMap.title} />
 			<div class="info">
 				<p class="day">Day {openMap.day} · {themeName(openMap.day)}</p>
 				<h3>{openMap.name || '@' + openMap.handle}</h3>
