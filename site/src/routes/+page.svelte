@@ -76,18 +76,27 @@
 			</div>
 			<ul class="rules">
 				<li><strong>No sign-up needed</strong> to take part. Our form only keeps you in the loop.</li>
-				<li><strong>Any tool, any data.</strong> Code, desktop GIS, or pen and paper.</li>
+				<li>
+					<strong>Any tool is very welcome.</strong> R, Python, QGIS, or pen and paper, with or without AI.
+				</li>
 				<li><strong>You don't need to do all 30.</strong> One or two days is already great.</li>
 				<li><strong>It isn't a competition.</strong> Make your own work and credit your data.</li>
 			</ul>
 		</div>
 		<div class="callout">
-			<h3>Using AI? Say how.</h3>
+			<h3>AI is welcome here</h3>
 			<p>
-				Add one line to each map about how you used AI, for example: <em
+				This year the BE Coding Café's theme is AI in research software development, so using an
+				AI assistant or agent to help make your maps is supported. It isn't the main aim, though:
+				the point is making maps, and maps made in R, Python or any other tool without AI are just as
+				welcome.
+			</p>
+			<p>
+				If you do use AI, add one line to your map saying how, for example: <em
 					>"AI wrote the plotting code, I chose the data and the projection."</em
 				>
-				Day 10, "Prompting only", is the exception: there the AI makes the whole map, on purpose.
+				Two days fit AI especially well: Day 10, "Prompting only", where the AI makes the whole map,
+				and Day 27, "New tool".
 			</p>
 		</div>
 	</section>
@@ -408,6 +417,10 @@
 	}
 	.callout p {
 		margin: 0;
+		max-width: 75ch;
+	}
+	.callout p + p {
+		margin-top: 8px;
 	}
 
 	/* steps */

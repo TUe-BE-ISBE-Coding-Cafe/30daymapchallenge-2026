@@ -12,9 +12,9 @@ R or Python, beginners very welcome.
 
 A community challenge to make **one map per day** in November, each day with a theme.
 There is no sign-up and no jury: you make a map, post it with **#30DayMapChallenge**, and look at what
-everyone else made. Any tool is fine (R, Python, QGIS, pen and paper...), and **fewer than 30
-maps is completely fine** – one map is a success. AI tools may be used, but thoughtfully and
-openly (see [AI disclosure](#ai-disclosure-tue-rule)). Official site: <https://30daymapchallenge.com>.
+everyone else made. **Any tool is very welcome** (R, Python, QGIS, pen and paper...), and **fewer than
+30 maps is completely fine** – one map is a success. Using AI is supported too (see
+[AI is welcome](#ai-is-welcome)). Official site: <https://30daymapchallenge.com>.
 
 ## Café dates
 
@@ -84,9 +84,14 @@ See [maps/day01-example/](maps/day01-example/) for a complete example.
 
 Always check <https://30daymapchallenge.com> for the official descriptions.
 
-## AI disclosure (TU/e rule)
+## AI is welcome
 
-Using AI is allowed. Being open about it is required. Every map's `README.md` has **one line**
+This year (2026/27) the BE Coding Café's theme is **AI in research software development**, so using an
+AI assistant or agent to help make your maps is supported. It is not the main aim, though: the point
+is making maps, and maps made in R, Python or any other tool without AI are just as welcome.
+Days 10 (Prompting only) and 27 (New tool) fit AI especially well.
+
+Being open about it is the one rule. Every map's `README.md` has **one line**
 saying what the AI did and what you did, for example:
 
 > **AI disclosure:** AI wrote the plotting code, I chose the data and the projection.
