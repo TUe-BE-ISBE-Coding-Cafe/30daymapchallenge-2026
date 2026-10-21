@@ -1,0 +1,39 @@
+# --- R ---
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+*.Rproj
+.Renviron
+renv/library/
+renv/staging/
+*_cache/
+*_files/
+/.quarto/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+.env
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Large / temporary data (download in your script instead) ---
+*.zip
+*.gpkg-journal
+*.tif.aux.xml
+tmp/
+scratch/

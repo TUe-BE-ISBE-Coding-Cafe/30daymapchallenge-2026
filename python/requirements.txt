@@ -1,0 +1,6 @@
+# pip install -r python/requirements.txt   (Python 3.10+)
+geopandas>=1.0     # pulls in shapely, pyproj, pyogrio, pandas
+matplotlib>=3.8
+# optional extras for later days:
+# contextily       # web basemap tiles
+# osmnx            # street networks from OpenStreetMap (Day 24 Network!)
